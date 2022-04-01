@@ -11,6 +11,8 @@ class Semester extends StatelessWidget {
       child: Padding(
           padding: const EdgeInsets.only(top: 10),
           child: ListView.separated(
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
             separatorBuilder: (context, index) {
               return Container(
                 height: 10,

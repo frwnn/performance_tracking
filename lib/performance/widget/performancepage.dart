@@ -24,8 +24,13 @@ class PerformancePage extends StatelessWidget {
           ],
         ),
       ),
-      body: identitas(),
-      // Semester(),
+      body: Column(
+        children: [
+          identitas(),
+          Semester(),
+        ],
+      ),
+      //
     );
   }
 }
