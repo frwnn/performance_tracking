@@ -18,7 +18,7 @@ class Status extends StatelessWidget {
               decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(
-                    color: Colors.black,
+                    color: Colors.grey,
                   ),
                   borderRadius: BorderRadius.all(Radius.circular(10.0))),
             ),
