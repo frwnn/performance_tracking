@@ -61,9 +61,24 @@ class Status extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      Text("IP : 3.2"),
-                      Text("24 SKS"),
-                      Text("IPK : 3.7"),
+                      Text("IP : 3.2",
+                          style: TextStyle(
+                              fontFamily: 'Montserrat',
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                              fontSize: 14)),
+                      Text("24 SKS",
+                          style: TextStyle(
+                              fontFamily: 'Montserrat',
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                              fontSize: 14)),
+                      Text("IPK : 3.7",
+                          style: TextStyle(
+                              fontFamily: 'Montserrat',
+                              fontWeight: FontWeight.bold,
+                              color: Colors.black,
+                              fontSize: 14)),
                     ],
                   )
                 ],
