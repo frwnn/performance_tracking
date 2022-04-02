@@ -30,9 +30,14 @@ class identitas extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text("Mahasiswa : Fajar Irawan - 41818010127"),
-                    Text("Fak/Prodi : Sistem Informasi - S1"),
-                    Text("Smst/SKS/Status : 7/130/Aktif"),
+                    Text(
+                      "Mahasiswa : Fajar Irawan - 41818010127",
+                      style: TextStyle(fontWeight: FontWeight.bold),
+                    ),
+                    Text("Fak/Prodi : Sistem Informasi - S1",
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    Text("Smst/SKS/Status : 7/130/Aktif",
+                        style: TextStyle(fontWeight: FontWeight.bold)),
                   ],
                 ),
               ),

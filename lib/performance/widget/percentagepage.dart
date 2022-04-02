@@ -13,6 +13,7 @@ import 'package:flutter/material.dart'
         Text,
         TextStyle,
         Widget;
+import 'package:performance_tracking/performance/widget/unduh_laporan.dart';
 import 'percentage.dart';
 import 'identitas.dart';
 
@@ -29,7 +30,7 @@ class PercentagePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Percentage Tracking",
+              "Laporan Kinerja",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.white,
@@ -42,6 +43,7 @@ class PercentagePage extends StatelessWidget {
         children: [
           identitas(),
           Percentage(),
+          UnduhLaporan(),
         ],
       ),
       //
