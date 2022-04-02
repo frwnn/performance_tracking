@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Semester extends StatelessWidget {
-  const Semester({
-    Key? key,
-  }) : super(key: key);
+class Pilihan extends StatelessWidget {
+  final List<String> pilihan = ["Analisis Pembelajaran", "Lihat KHS"];
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +16,7 @@ class Semester extends StatelessWidget {
                 height: 10,
               );
             },
-            itemCount: 8,
+            itemCount: 2,
             itemBuilder: (context, index) {
               return Center(
                 child: Stack(
@@ -26,7 +24,7 @@ class Semester extends StatelessWidget {
                   children: [
                     Container(
                         height: 50,
-                        width: 200,
+                        width: 250,
                         decoration: BoxDecoration(
                             color: Colors.white,
                             border: Border.all(
@@ -35,10 +33,19 @@ class Semester extends StatelessWidget {
                             borderRadius:
                                 BorderRadius.all(Radius.circular(10.0)))),
                     Padding(
-                      padding: const EdgeInsets.only(left: 5),
+                      padding: const EdgeInsets.only(left: 20),
                       child: Text(
-                        "Semester ${index + 1}",
-                        style: TextStyle(fontFamily: ''),
+                        pilihan[index],
+                        style: TextStyle(
+                            fontFamily: 'Montserrat',
+                            color: Colors.black,
+                            fontSize: 14),
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.only(left: 220),
+                      child: Icon(
+                        Icons.arrow_forward_ios,
                       ),
                     )
                   ],

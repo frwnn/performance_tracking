@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:performance_tracking/performance/widget/semester.dart';
+import 'package:performance_tracking/performance/widget/pilihan.dart';
 import 'identitas.dart';
+import 'package:flutter/cupertino.dart';
+import 'body.dart';
 
 class PerformancePage extends StatelessWidget {
   const PerformancePage({Key? key}) : super(key: key);
@@ -8,6 +10,7 @@ class PerformancePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.blue,
@@ -17,19 +20,20 @@ class PerformancePage extends StatelessWidget {
             Text(
               "Performance Tracking",
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.white,
-              ),
+                  fontFamily: 'Montserrat',
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                  fontSize: 20),
             ),
           ],
         ),
       ),
-      body: Column(
-        children: [
-          identitas(),
-          Semester(),
-        ],
-      ),
+      body: Body(
+          // children: [
+          //   identitas(),
+          //   Pilihan(),
+          // ],
+          ),
       //
     );
   }
