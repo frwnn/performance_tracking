@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:performance_tracking/performance/widget/semester.dart';
-import 'identitas.dart';
+import '../performance/widget/identitas.dart';
 
 class PerformancePage extends StatelessWidget {
   const PerformancePage({Key? key}) : super(key: key);

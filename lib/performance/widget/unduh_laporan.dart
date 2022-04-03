@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:performance_tracking/page/pdf_page.dart';
 
 class UnduhLaporan extends StatefulWidget {
   const UnduhLaporan({Key? key}) : super(key: key);
@@ -19,7 +20,8 @@ class UnduhLaporanState extends State<UnduhLaporan> {
             height: 50,
             child: RaisedButton(
               onPressed: () {
-                print("object");
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => PDFpage()));
               },
               color: Colors.green,
               shape: RoundedRectangleBorder(

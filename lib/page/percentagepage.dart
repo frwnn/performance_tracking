@@ -14,8 +14,8 @@ import 'package:flutter/material.dart'
         TextStyle,
         Widget;
 import 'package:performance_tracking/performance/widget/unduh_laporan.dart';
-import 'percentage.dart';
-import 'identitas.dart';
+import '../performance/widget/percentage.dart';
+import '../performance/widget/identitas.dart';
 
 class PercentagePage extends StatelessWidget {
   const PercentagePage({Key? key}) : super(key: key);
