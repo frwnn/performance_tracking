@@ -16,7 +16,7 @@ class identitas extends StatelessWidget {
           child: Stack(alignment: Alignment.topCenter, children: [
             Container(
               width: 300,
-              height: 120,
+              height: 100,
               decoration: BoxDecoration(
                   color: Colors.white,
                   border: Border.all(

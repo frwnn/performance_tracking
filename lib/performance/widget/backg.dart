@@ -12,7 +12,7 @@ class Backg extends StatelessWidget {
       width: double.infinity,
       child: Stack(alignment: Alignment.center, children: <Widget>[
         Positioned(
-            top: 135,
+            top: 127,
             child: Container(
                 height: 700,
                 width: 390,
