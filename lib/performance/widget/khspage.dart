@@ -38,7 +38,7 @@ class _KhsPageState extends State<KhsPage> {
           SizedBox(
             height: 20,
           ),
-          MyHomePage(),
+          Grafik(),
           SizedBox(
             height: 20,
           ),
