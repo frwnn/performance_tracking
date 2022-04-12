@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:performance_tracking/performance/widget/detailpage.dart';
+import 'package:performance_tracking/performance/widget/performancepage.dart';
 
 class KHS extends StatelessWidget {
   final List<String> gasal = ["1", "3", "5", "7"];
@@ -18,15 +20,24 @@ class KHS extends StatelessWidget {
         return Padding(
           padding: const EdgeInsets.only(left: 20),
           child: Stack(alignment: Alignment.topLeft, children: [
-            Container(
-              width: 160,
-              height: 120,
-              decoration: BoxDecoration(
-                  color: Colors.white,
-                  border: Border.all(
-                    color: Colors.grey,
-                  ),
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))),
+            GestureDetector(
+              child: Container(
+                width: 160,
+                height: 120,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    border: Border.all(
+                      color: Colors.grey,
+                    ),
+                    borderRadius: BorderRadius.all(Radius.circular(10.0))),
+              ),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => PerformancePage(),
+                    ));
+              },
             ),
             Padding(
               padding: const EdgeInsets.all(10.0),
