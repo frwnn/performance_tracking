@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:performance_tracking/performance/widget/identitas.dart';
-import 'package:performance_tracking/performance/widget/pilihan.dart';
-import 'package:performance_tracking/performance/widget/status.dart';
+import 'package:performance_tracking/performance/component/identitas.dart';
+import 'package:performance_tracking/performance/component/pilihan.dart';
+import 'package:performance_tracking/performance/component/status.dart';
 import 'backg.dart';
 
 class Body extends StatelessWidget {

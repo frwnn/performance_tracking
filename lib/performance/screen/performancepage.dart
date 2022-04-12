@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:performance_tracking/performance/widget/pilihan.dart';
-import 'identitas.dart';
+import 'package:performance_tracking/performance/component/pilihan.dart';
+import 'package:performance_tracking/performance/component/identitas.dart';
 import 'package:flutter/cupertino.dart';
-import 'body.dart';
+import 'package:performance_tracking/performance/component/body.dart';
 
 class PerformancePage extends StatelessWidget {
   const PerformancePage({Key? key}) : super(key: key);

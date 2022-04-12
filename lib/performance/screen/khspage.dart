@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:performance_tracking/performance/widget/grafik.dart';
-import 'package:performance_tracking/performance/widget/identitas.dart';
-import 'package:performance_tracking/performance/widget/khs.dart';
-import 'package:performance_tracking/performance/widget/khs2.dart';
-import 'package:performance_tracking/performance/widget/performancepage.dart';
+import 'package:performance_tracking/performance/component/identitas.dart';
+import 'package:performance_tracking/performance/component/grafik.dart';
+import 'package:performance_tracking/performance/component/khs.dart';
+import 'package:performance_tracking/performance/component/khs2.dart';
+import 'package:performance_tracking/performance/screen/performancepage.dart';
 
 class KhsPage extends StatefulWidget {
   const KhsPage({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:performance_tracking/performance/widget/detailpage.dart';
-import 'package:performance_tracking/performance/widget/performancepage.dart';
+import 'package:performance_tracking/performance/screen/detailpage.dart';
+import 'package:performance_tracking/performance/screen/performancepage.dart';
 
 class KHS extends StatelessWidget {
   final List<String> gasal = ["1", "3", "5", "7"];

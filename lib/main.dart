@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:performance_tracking/performance/widget/KHSPage.dart';
-import 'package:performance_tracking/performance/widget/detailpage.dart';
-import 'performance/widget/performancepage.dart';
-import 'performance/widget/khs.dart';
+import 'package:performance_tracking/performance/screen/KHSPage.dart';
+import 'package:performance_tracking/performance/screen/detailpage.dart';
+import 'performance/screen/performancepage.dart';
+import 'performance/component/khs.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
-import 'package:performance_tracking/performance/widget/identitas.dart';
-import 'package:performance_tracking/performance/widget/pilihdetail.dart';
+import 'package:performance_tracking/performance/component/identitas.dart';
+import 'package:performance_tracking/performance/component/pilihdetail.dart';
 
-import 'body.dart';
+import 'package:performance_tracking/performance/component/body.dart';
 
 class DetailPage extends StatelessWidget {
   const DetailPage({Key? key}) : super(key: key);
