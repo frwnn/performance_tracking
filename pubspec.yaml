@@ -38,6 +38,9 @@ dependencies:
   syncfusion_flutter_charts: ^19.4.56
   get_cli: ^1.7.1
   get: ^4.6.1
+  syncfusion_flutter_pdf: ^19.4.56-beta
+  open_file: ^3.2.1
+  path_provider: ^2.0.9
 
 dev_dependencies:
   flutter_test:

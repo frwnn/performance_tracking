@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:performance_tracking/performance/component/coba.dart';
+import 'package:performance_tracking/performance/component/coba.dart';
+import 'package:performance_tracking/performance/component/coba2.dart';
 import 'package:performance_tracking/performance/component/identitas.dart';
 import 'package:performance_tracking/performance/component/grafik.dart';
-import 'package:performance_tracking/performance/component/khs.dart';
-import 'package:performance_tracking/performance/component/khs2.dart';
+
 import 'package:performance_tracking/performance/screen/performancepage.dart';
 
 class KhsPage extends StatefulWidget {
@@ -36,31 +38,15 @@ class _KhsPageState extends State<KhsPage> {
             height: 20,
           ),
           Grafik(),
-          InkWell(
-            child: Container(
-              width: 160,
-              height: 120,
-              decoration: BoxDecoration(
-                  color: Colors.red,
-                  border: Border.all(
-                    color: Colors.grey,
-                  ),
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))),
-            ),
-            onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => PerformancePage(),
-                  ));
-            },
-          ),
           SizedBox(
             height: 20,
           ),
-          Stack(
-            children: [KHS(), KHSS()],
-          )
+          Row(
+            children: [
+              Coba(),
+              Coba2(),
+            ],
+          ),
         ],
       ),
     );
